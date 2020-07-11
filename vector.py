@@ -1,6 +1,5 @@
-nombre = "ken"
-num1 = 3
-num2 = 2
-resul = num1 * num2
-print(resul)
-print("hello world")
+numeros = [4]
+for x in range(3):
+    numeros[x]=input("Coloca la Nota: ")
+for y in range(3):
+    print(numeros[x])
